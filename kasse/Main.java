@@ -16,7 +16,7 @@ public class Main {
             
         System.out.print("Willkommen zur Kasse\nBitte geben Sie das Wechselgeld in Euro ein: ");
         double wechselGeld = scan.nextDouble();
-        myKasse.calculMuenzenWechselgeld(wechselGeld);
+        myKasse.calculateMuenzenWechselgeld(wechselGeld);
         
         } catch (Exception e) {
             System.out.println("Wechselgeld muss numeric und mit Komma sein");
